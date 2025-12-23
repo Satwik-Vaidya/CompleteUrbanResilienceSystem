@@ -18,7 +18,7 @@ CORS(app)
 # 🌧️ FLOOD PREDICTION SETUP
 # -----------------------------------
 model_bundle = joblib.load("flood_prediction_model_retrained.pkl")
-OPENWEATHER_API_KEY = "3bbb7b3c02698b55cbd8a66d69e01f51"
+OPENWEATHER_API_KEY = "****"
 
 @app.route('/')
 def home():
